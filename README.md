@@ -1,6 +1,8 @@
 # CS188 and CSCE580 reversed submission_autograder.py 
 
-CS188 Intro to AI is a course provided for free by UC Berkeley for use by other institutions. It is also in use at the University of South Carolina as CSCE580.
+CS188 Intro to AI is a course provided for free by UC Berkeley for use by other institutions. It is also in use at the University of South Carolina as CSCE580. 
+
+This project provides a useful discussion of client-side verification. It is very important to verify scores by rechecking the work that students submit. If the score in the `reinforcement.token` is trusted implicitly then it would be trivial to write a version of that token that erroneously states a higher than received score. Later in this document is a discussion of RSA keys. This is because it was found that the public key included in this project was laughably small.
 
 ## Getting Started
 
